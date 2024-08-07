@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<link rel="stylesheet" href="index.css" />
+<script src="index.js"></script>
+<body>
+    <div class="calbody">
+        <div>
+        <input id="cal"  type="text" placeholder="expression"/>
+        <button onclick="clearScr()" class="calbutton">C</button>
+        </div>  
+        <div>
+            <div>
+                <button class="calbutton" onclick="getVal(1)">1</button>
+                <button class="calbutton" onclick="getVal(2)">2</button>
+                <button class="calbutton" onclick="getVal(3)">3</button>
+                <button class="calbutton" onclick="getVal('/')">/</button>
+            </div>
+        </div>
+        <div>
+            <div>
+                <button class="calbutton">4</button>
+                <button class="calbutton">5</button>
+                <button class="calbutton">6</button>
+                <button class="calbutton">-</button>
+            </div>
+        </div>
+        <div>
+            <div>
+                <button class="calbutton">7</button>
+                <button class="calbutton">8</button>
+                <button class="calbutton">9</button>
+                <button class="calbutton">+</button>
+            </div>
+        </div>
+        <div>
+            <div>
+                <button class="calbutton">.</button>
+                <button class="calbutton">0</button>
+                <button onclick="calculate()" class="calbutton">=</button>
+                <button class="calbutton">*</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

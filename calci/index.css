@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+.calbutton {
+    background-color: aquamarine;
+    padding: 10px;
+    padding-left: 14px;
+}
+
+.calbody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    background-color: blueviolet;
+    width: fit-content;
+}
+

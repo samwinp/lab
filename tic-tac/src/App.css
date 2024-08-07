@@ -1,0 +1,17 @@
+.square{
+  height: 80px;
+  width: 80px;
+  background-color: white;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.board{
+  max-width: 250px;
+  background-color: white;
+  margin: auto;
+  display: flex;  
+  flex-wrap: wrap;
+}
